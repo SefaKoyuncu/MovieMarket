@@ -27,10 +27,75 @@
 - Lottie Files Animasyonu
 - SQLite database.
 
-------------
-
-
-#### Proje halen devam etmektedir. Ekran görüntüleri ve kalan kısımlar bitirildikçe projeye dahil edilecektir.
 
 ------------
+#### Ekran Görüntüleri
+ <br />
+<table>
+  <tr>
+    <td>Açılış Ekranı-Splash Screen.</td>
+     <td>Giriş Sayfası.</td>
+     <td>Kayıt Ol Ekranı.</td>
+     <td>Misafir Giriş- 1 adet giriş hakkı var.</td>
 
+  </tr>
+  <tr>
+    <td><img src="acilisEkrani.jpeg" width="200" height="400"></td>
+    <td><img src="girisSayfasi.jpeg" width="200" height="400"></td>
+    <td><img src="kayitOl.jpeg" width="200" height="400"></td>
+      <td><img src="misafirGiriş.jpeg" width="200" height="400"></td>
+  </tr>
+ </table>
+ 
+ <br />
+
+<table>
+  <tr>
+    <td>Şifremi unuttum mail<br>
+ve işaret doğrulama ekranı.</td>
+     <td>Mail ve işaret doğrulandı.<br>Animasyon oynadı.</td>
+     <td>Yeni şifre oluşturma ekranı.</td>
+     <td>Giriş yapıldı. Anasayfa ekranı.</td>
+
+  </tr>
+  <tr>
+    <td><img src="mailveisaretdogrulama.jpeg" width="200" height="400"></td>
+    <td><img src="mailveisaretDogrulandi.jpeg" width="200" height="400"></td>
+    <td><img src="yeniSifre.jpeg" width="200" height="400"></td>
+      <td><img src="anasayfa.jpeg" width="200" height="400"></td>
+  </tr>
+ </table>
+ 
+ <br />
+
+<table>
+  <tr>
+    <td>Ürün detay sayfası.</td>
+     <td>Sepet boş bottomsheet.</td>
+     <td>Sepete ekle tıklandı.Ürün sepete<br>eklendi animasyonu oynadı.</td>
+     <td>Sepet içeriği bottomsheet.</td>
+
+  </tr>
+  <tr>
+    <td><img src="urunDetay.jpeg" width="200" height="400"></td>
+    <td><img src="sepetBos.jpeg" width="200" height="400"></td>
+    <td><img src="sepeteEklendi.jpeg" width="200" height="400"></td>
+      <td><img src="sepetDetay.jpeg" width="200" height="400"></td>
+  </tr>
+ </table>
+ 
+ <br />
+
+<table>
+  <tr>
+    <td>Sepeti sil animasyon tıklandı. Onay<br>isteniyor, evetse sepet silinir.</td>
+  </tr>
+  <tr>
+    <td><img src="sepetSilOnay.jpeg" width="200" height="400"></td>
+  </tr>
+ </table>
+
+------------
+
+#### *Proje halen devam etmektedir. Ekran görüntüleri ve kalan kısımlar bitirildikçe projeye dahil edilecektir.
+------------
