@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="81dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/acikKirmizi"
+        android:layout_marginBottom="3dp"
+        app:cardCornerRadius="18dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewSepetResim"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/inception"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textViewSepetAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Inception"
+                android:textColor="#D5FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewSepetResim"
+                app:layout_constraintStart_toEndOf="@+id/imageViewSepetResim"
+                app:layout_constraintTop_toTopOf="@+id/imageViewSepetResim"
+                app:layout_constraintVertical_bias="0.060000002" />
+
+            <TextView
+                android:id="@+id/textViewSepetAdet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="1"
+                android:textColor="#D5FFFFFF"
+                android:textSize="26sp"
+                app:layout_constraintEnd_toStartOf="@+id/imageButtonSepetArti"
+                app:layout_constraintStart_toEndOf="@+id/imageButtonSepetEksi"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSepetAd" />
+
+            <TextView
+                android:id="@+id/textViewSepetFiyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="10.99 TL"
+                android:textColor="#D5FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewSepetResim"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageViewSepetResim" />
+
+            <ImageButton
+                android:id="@+id/imageButtonSepetArti"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="@color/acikSari"
+                android:src="@drawable/ic_baseline_add_24"
+                app:tint="@color/acikMor"
+                app:layout_constraintStart_toEndOf="@+id/textViewSepetAdet"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSepetAd" />
+
+            <ImageButton
+                android:id="@+id/imageButtonSepetEksi"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/acikSari"
+                android:src="@drawable/ic_baseline_remove_24"
+                app:layout_constraintEnd_toStartOf="@+id/textViewSepetAdet"
+                app:layout_constraintStart_toStartOf="@+id/textViewSepetAd"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSepetAd"
+                app:tint="@color/acikMor"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
