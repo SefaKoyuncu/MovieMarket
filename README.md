@@ -40,7 +40,7 @@
 
   </tr>
   <tr>
-    <td><img src="acilisEkrani.jpeg" width="200" height="400"></td>
+    <td><img src="acilisEkrani.jpeg" width="216" height="400"></td>
     <td><img src="girisSayfasi.jpeg" width="200" height="400"></td>
     <td><img src="kayitOl.jpeg" width="200" height="400"></td>
       <td><img src="misafirGiriş.jpeg" width="200" height="400"></td>
